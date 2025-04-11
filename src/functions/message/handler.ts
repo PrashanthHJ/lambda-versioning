@@ -3,7 +3,7 @@ import { middyfy } from '@libs/lambda';
 
 
 const message = async () => {
-  const version = process.env.VERSION;
+  const version = process.env.VERSION_DBP;
 
   return formatJSONResponse({
     message: `Hello ${version}!`
