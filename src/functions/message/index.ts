@@ -6,12 +6,12 @@ export default {
     {
       http: {
         method: 'get',
-        path: 'api/v2/message',
+        path: 'api/v3/message',
       },
     },
   ],
   version: true,
   tags: {
-    alias: 'v2',
+    alias: 'v3',
   },
 };
