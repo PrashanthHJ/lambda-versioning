@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "70f52d79-5c00-4535-8803-914c61d4f314",
+		"name": "Lambda Versioning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41560222"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"item": [
+				{
+					"name": "v1",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/dev/api/v1/message",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"dev",
+										"api",
+										"v1",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "v2",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/dev/api/v2/message",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"dev",
+										"api",
+										"v2",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "v3",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/dev/api/v3/message",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"dev",
+										"api",
+										"v3",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "DEV",
+			"item": [
+				{
+					"name": "v1",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://1icpiowhe0.execute-api.us-east-1.amazonaws.com/v1/message",
+									"protocol": "https",
+									"host": [
+										"1icpiowhe0",
+										"execute-api",
+										"us-east-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"v1",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "v2",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://1icpiowhe0.execute-api.us-east-1.amazonaws.com/v2/message",
+									"protocol": "https",
+									"host": [
+										"1icpiowhe0",
+										"execute-api",
+										"us-east-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"v2",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "v3",
+					"item": [
+						{
+							"name": "message",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://1icpiowhe0.execute-api.us-east-1.amazonaws.com/v3/message",
+									"protocol": "https",
+									"host": [
+										"1icpiowhe0",
+										"execute-api",
+										"us-east-1",
+										"amazonaws",
+										"com"
+									],
+									"path": [
+										"v3",
+										"message"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
